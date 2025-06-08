@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Litle Randomizer</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="head_title">Миниприложение для распределения участников по командам</h1> 
+         <form class="form" action="">
+            <label for="names">Впишите сюда имена участников</label>
+            <textarea class="textarea" name="names" id="names" rows="2" cols="10"></textarea>
+            <div class="btns">
+                <input class="btn" id="submit" type="submit" value="Разбить по командам">
+                <button class="btn" id="clear" >Очистить поле с именами</button>
+            </div>
+         </form>
+
+         <div class="display">
+            <h2 class="title_display">Команда №1 : </h2>
+            <div id="dsipay1" class="displaydata1"></div>
+
+            <h2 class="title_display">Команда №2 : </h2>
+            <div id="dsipay2" class="displaydata2"></div>
+         </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
